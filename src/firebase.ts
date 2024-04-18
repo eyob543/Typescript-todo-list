@@ -8,12 +8,13 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBvXRITHtcs06TtfdvRfgTCzp6nD_wSqss",
-    authDomain: "todo-list-c5cd3.firebaseapp.com",
-    projectId: "todo-list-c5cd3",
-    storageBucket: "todo-list-c5cd3.appspot.com",
-    messagingSenderId: "609111290234",
-    appId: "1:609111290234:web:ca59c97b853f22c308a6c3",
+  apiKey: "AIzaSyBvXRITHtcs06TtfdvRfgTCzp6nD_wSqss",
+  authDomain: "todo-list-c5cd3.firebaseapp.com",
+  databaseURL: "https://todo-list-c5cd3-default-rtdb.firebaseio.com/",
+  projectId: "todo-list-c5cd3",
+  storageBucket: "todo-list-c5cd3.appspot.com",
+  messagingSenderId: "609111290234",
+  appId: "1:609111290234:web:ca59c97b853f22c308a6c3",
 };
 
 // Initialize Firebase
